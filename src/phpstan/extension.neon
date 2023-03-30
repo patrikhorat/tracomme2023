@@ -1,0 +1,5 @@
+services:
+  -
+    class: Tracomme2023\PHPStan\GetThemeModReturnType
+    tags:
+      - phpstan.broker.dynamicFunctionReturnTypeExtension
